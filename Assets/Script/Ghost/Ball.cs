@@ -14,7 +14,8 @@ public class Ball : MonoBehaviour
         {
 
             Invoke("Delay", 1f);
-              
+            Debug.Log("entro");
+
             
         }
     }
