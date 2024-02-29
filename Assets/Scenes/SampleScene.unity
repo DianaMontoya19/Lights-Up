@@ -1377,7 +1377,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 28.186653
+  orthographic size: 22.124775
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -11716,8 +11716,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.06465, y: 0.5777001, z: 0}
-    m_Extent: {x: 1.26915, y: 1.5839, z: 0}
+    m_Center: {x: 0.06279999, y: 0.57084996, z: 0}
+    m_Extent: {x: 1.2558999, y: 1.58725, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -12181,8 +12181,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.21124998, y: -0.15899998, z: 0}
-    m_Extent: {x: 0.90565, y: 0.9033, z: 0}
+    m_Center: {x: -0.20975, y: -0.16455, z: 0}
+    m_Extent: {x: 0.90595, y: 0.91375, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -18246,12 +18246,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1231868666}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 756f5e296f1fad84597d5b423e75ecbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spawn: {fileID: 6124698843771693474, guid: dd95256dc83ba644b922432c66c5bb8e, type: 3}
+  spawnTimer: 0
+  spawnMax: 3
+  spawnMin: 1
 --- !u!4 &1231868668
 Transform:
   m_ObjectHideFlags: 0
@@ -23513,7 +23516,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1893850547}
   - component: {fileID: 1893850546}
-  - component: {fileID: 1893850545}
   - component: {fileID: 1893850548}
   m_Layer: 0
   m_Name: Activar
@@ -23521,20 +23523,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1893850545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1893850544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69bdffd0a07f0a441b7eed73d9cadc48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Fireball: {fileID: 0}
+  m_IsActive: 0
 --- !u!61 &1893850546
 BoxCollider2D:
   m_ObjectHideFlags: 0
