@@ -429,9 +429,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 113178087}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Skull
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11606,8 +11606,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.061349988, y: 0.58115005, z: 0}
-    m_Extent: {x: 1.26195, y: 1.58375, z: 0}
+    m_Center: {x: 0.058099985, y: 0.5734, z: 0}
+    m_Extent: {x: 1.2666, y: 1.5801, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -11635,7 +11635,7 @@ GameObject:
   - component: {fileID: 873020989}
   - component: {fileID: 873020992}
   - component: {fileID: 873020993}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: skull2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11984,7 +11984,7 @@ GameObject:
   - component: {fileID: 909745926}
   - component: {fileID: 909745927}
   - component: {fileID: 909745928}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: skull5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12218,8 +12218,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.21390003, y: -0.16379997, z: 0}
-    m_Extent: {x: 0.9028, y: 0.91129994, z: 0}
+    m_Center: {x: -0.20970002, y: -0.16540003, z: 0}
+    m_Extent: {x: 0.90250003, y: 0.9096, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -14548,9 +14548,9 @@ GameObject:
   - component: {fileID: 1136344252}
   - component: {fileID: 1136344251}
   - component: {fileID: 1136344253}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18024,7 +18024,7 @@ GameObject:
   - component: {fileID: 1164571319}
   - component: {fileID: 1164571321}
   - component: {fileID: 1164571322}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: skull3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18202,7 +18202,7 @@ GameObject:
   - component: {fileID: 1225384575}
   - component: {fileID: 1225384576}
   - component: {fileID: 1225384577}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: skull4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19697,7 +19697,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1526722330}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Skull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19903,8 +19903,8 @@ GameObject:
   - component: {fileID: 1616758709}
   - component: {fileID: 1616758715}
   - component: {fileID: 1616758714}
-  - component: {fileID: 1616758713}
   - component: {fileID: 1616758712}
+  - component: {fileID: 1616758716}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Player
@@ -19994,7 +19994,7 @@ Transform:
   m_GameObject: {fileID: 1616758708}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: 16, z: 0}
+  m_LocalPosition: {x: -10, y: 15.52, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -20013,44 +20013,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Horizontal: Horizontal
-  Vertical: 
   velocidadMove: 5
-  anim: {fileID: 0}
---- !u!58 &1616758713
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1616758708}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
+  force: 8
+  anim: {fileID: 1616758709}
+  jump: 0
+  Ground:
     serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.055, y: -0.3373118}
-  serializedVersion: 2
-  m_Radius: 0.06768823
+    m_Bits: 64
+  tf: {fileID: 1616758711}
 --- !u!61 &1616758714
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20083,7 +20053,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.058623597, y: 0.06764273}
+  m_Offset: {x: -0.056195516, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -20094,7 +20064,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.3227528, y: 0.67471457}
+  m_Size: {x: 0.32275316, y: 0.8138222}
   m_EdgeRadius: 0
 --- !u!50 &1616758715
 Rigidbody2D:
@@ -20123,6 +20093,51 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!61 &1616758716
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616758708}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.058254033, y: -0.42425758}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.44, y: 0.81}
+    newSize: {x: 0.44, y: 0.81}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32349193, y: 0.16834795}
+  m_EdgeRadius: 0
 --- !u!1 &1673176331
 GameObject:
   m_ObjectHideFlags: 0
@@ -23831,7 +23846,7 @@ GameObject:
   - component: {fileID: 1809037592}
   - component: {fileID: 1809037593}
   - component: {fileID: 1809037594}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: skull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24637,6 +24652,7 @@ GameObject:
   - component: {fileID: 2010850212}
   - component: {fileID: 2010850214}
   - component: {fileID: 2010850213}
+  - component: {fileID: 2010850215}
   m_Layer: 0
   m_Name: Tumb
   m_TagString: Untagged
@@ -24733,6 +24749,58 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &2010850215
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010850211}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.31846172, y: -0.49107742}
+  - {x: 0.29413274, y: -0.506204}
+  - {x: -0.21735391, y: -0.5062778}
+  - {x: -0.2651371, y: -0.46972656}
+  - {x: -0.2595518, y: -0.060539335}
+  - {x: -0.31858328, y: 0.08885818}
+  - {x: -0.33253932, y: 0.4216282}
+  - {x: -0.18497986, y: 0.5059177}
+  - {x: 0.2974258, y: 0.5124295}
+  - {x: 0.3507419, y: 0.43945682}
+  - {x: 0.36965483, y: 0.29480097}
+  - {x: 0.31557262, y: -0.03047444}
+  - {x: 0.31833363, y: -0.43951538}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &2083201579
 GameObject:
   m_ObjectHideFlags: 0
