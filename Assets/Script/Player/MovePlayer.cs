@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
 public class MovePlayer : MonoBehaviour
 {
@@ -11,19 +12,28 @@ public class MovePlayer : MonoBehaviour
     public Animator anim;
     void Start()
     {
-        rb= GetComponent<Rigidbody2D>();
-        anim= GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         float Hor = Input.GetAxisRaw(Horizontal);
-        //float Ver = Input.GetAxisRaw(Vertical);
+        
 
         transform.Translate(Hor*Time.deltaTime*velocidadMove, 0f,0f);
         anim.SetFloat("Velx", Hor);
 
+        if (Hor >= 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = false;
+        }
+        else
+        {
+            GetComponent<SpriteRenderer>().flipX = true;
+
+        }
 
     }
 }
