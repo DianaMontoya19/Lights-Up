@@ -21,7 +21,15 @@ public class Spawn : MonoBehaviour
         {
             Instantiate(spawn);
             spawnTimer = Random.Range(spawnMin, spawnMax);
+            
         }
         
     }
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    if(collision.tag == ("Fireball"))
+    //    {
+    //        Destroy(this.spawn);
+    //    }
+    //}
 }
