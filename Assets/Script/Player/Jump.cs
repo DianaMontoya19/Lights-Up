@@ -7,7 +7,7 @@ public class Jump : MonoBehaviour
 {
     private Rigidbody2D rb;
     public Animator anim;
-   // public string Vertical;
+
     public bool jump;
     public LayerMask Ground;
     public Transform tf;
@@ -21,7 +21,7 @@ public class Jump : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
-        //float Ver = Input.GetAxisRaw(Vertical);
+
 
         jump = Physics2D.Raycast(tf.position, Vector2.down, 4f, Ground);
 
