@@ -710,7 +710,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 6.016667
-    functionName: 
+    functionName: DiseableAnim
     data: 
     objectReferenceParameter: {fileID: 11500000, guid: 12a7db64ac6d26645922c43d273d9f45, type: 3}
     floatParameter: 0
