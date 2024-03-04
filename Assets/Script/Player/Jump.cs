@@ -8,6 +8,7 @@ public class Jump : MonoBehaviour
     private Rigidbody2D rb;
     public Animator anim;
 
+
     public bool jump;
     public LayerMask Ground;
     public Transform tf;
@@ -23,9 +24,12 @@ public class Jump : MonoBehaviour
     {
 
 
+        float Ver = Input.GetAxisRaw(Vertical);
+
+
         jump = Physics2D.Raycast(tf.position, Vector2.down, 4f, Ground);
 
-        if (Input.GetKey(KeyCode.UpArrow) && jump)
+        if (Ver != 0 && jump)
         {
 
             rb.AddForce(Vector3.up * force, ForceMode2D.Impulse);
