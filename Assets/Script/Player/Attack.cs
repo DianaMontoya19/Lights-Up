@@ -19,7 +19,6 @@ public class Attack : MonoBehaviour
             
         }
 
-        
     }
     void Appear()
     {
