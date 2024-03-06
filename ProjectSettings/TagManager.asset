@@ -8,6 +8,7 @@ TagManager:
   - skull
   - Ground
   - Enemy
+  - Attack
   layers:
   - Default
   - TransparentFX

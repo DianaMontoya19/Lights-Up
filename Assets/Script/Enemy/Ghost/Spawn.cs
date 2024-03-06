@@ -8,6 +8,7 @@ public class Spawn : MonoBehaviour
     public float spawnTimer;
     public float spawnMax = 3;
     public float spawnMin = 1;
+    private bool spawned = false;
     void Start()
     {
         spawnTimer = Random.Range(spawnMin, spawnMax);
@@ -17,7 +18,7 @@ public class Spawn : MonoBehaviour
     void Update()
     {
         spawnTimer -= Time.deltaTime;
-        if(spawnTimer <= 0)
+        if(spawnTimer <= 0 && spawned)
         {
             Instantiate(spawn);
             spawnTimer = Random.Range(spawnMin, spawnMax);
@@ -25,11 +26,12 @@ public class Spawn : MonoBehaviour
         }
         
     }
-    //private void OnTriggerEnter2D(Collider2D collision)
-    //{
-    //    if(collision.tag == ("Fireball"))
-    //    {
-    //        Destroy(this.spawn);
-    //    }
-    //}
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == ("Player"))
+        {
+           
+            spawned = true;
+        }
+    }
 }
