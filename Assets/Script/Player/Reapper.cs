@@ -37,10 +37,10 @@ public class Reapper : MonoBehaviour
     IEnumerator TimeReap()
     {
         image.SetActive(true);
-        player.enabled = false;
+        //player.enabled = false;
         yield return new WaitForSeconds(2f);
         image.SetActive(false);
-        player.enabled = true;
+        //player.enabled = true;
 
 
 
