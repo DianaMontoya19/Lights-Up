@@ -8,6 +8,7 @@ public class Spawn : MonoBehaviour
     public float spawnTimer;
     public float spawnMax = 3;
     public float spawnMin = 1;
+    private GameObject _newObject;
     private bool spawned = false;
     void Start()
     {
@@ -20,7 +21,7 @@ public class Spawn : MonoBehaviour
         spawnTimer -= Time.deltaTime;
         if(spawnTimer <= 0 && spawned)
         {
-            Instantiate(spawn);
+            _newObject = Instantiate(spawn);
             spawnTimer = Random.Range(spawnMin, spawnMax);
             
         }
@@ -28,10 +29,10 @@ public class Spawn : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == ("Player"))
+        if(collision.gameObject.CompareTag("Player"))
         {
-           
-            spawned = true;
+           spawned = true;
+    //        Destroy(_newObject);
         }
     }
 }
