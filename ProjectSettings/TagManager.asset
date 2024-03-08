@@ -11,6 +11,8 @@ TagManager:
   - Attack
   - Died
   - Died2
+  - Door
+  - Key
   layers:
   - Default
   - TransparentFX

@@ -13,12 +13,6 @@ public class Died : MonoBehaviour
         movePlayer = GetComponent<MovePlayer>();
     }
 
-    //// Update is called once per frame
-    //void Update()
-    //{
-        
-    //}
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.CompareTag("Enemy"))
