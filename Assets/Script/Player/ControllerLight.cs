@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
-public class Light : MonoBehaviour
+public class ControllerLight : MonoBehaviour
 {
-    public Light2D light;
+    public Light2D playerLight;
     public GameObject fireFlies;
     public float multy = 0.5f;
     public float timer = 20f;
     private bool _timeOut = false;
     void Start()
     {
-        light = GetComponent<Light2D>();
-        light.intensity = 0f;
+        playerLight = GetComponent<Light2D>();
+        playerLight.intensity = 0f;
         
     }
     private void Update()
@@ -24,6 +24,10 @@ public class Light : MonoBehaviour
             if (timer <= 0f)
             {
                 StartCoroutine(TimeOff());
+                timer = 20f;
+                _timeOut = false;
+                
+                
             }
             
         }
@@ -45,8 +49,8 @@ public class Light : MonoBehaviour
     }
     private bool Timer()
     {
-        light.intensity += multy * Time.deltaTime;
-        return light.intensity >= 3;
+        playerLight.intensity += multy * Time.deltaTime;
+        return playerLight.intensity >= 3;
     }
     IEnumerator TimeOff()
     {
@@ -54,8 +58,8 @@ public class Light : MonoBehaviour
     }
     private bool TimerOff()
     {
-        light.intensity -= multy * Time.deltaTime;
-        return light.intensity <= 0;
+        playerLight.intensity -= multy * Time.deltaTime;
+        return playerLight.intensity <= 0;
     }
 
 }

@@ -13,6 +13,8 @@ TagManager:
   - Died2
   - Door
   - Key
+  - Point
+  - Puas
   layers:
   - Default
   - TransparentFX

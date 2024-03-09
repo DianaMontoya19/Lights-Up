@@ -9,7 +9,7 @@ public class MovePlayer : MonoBehaviour
     public string Horizontal;
     
     public float velocidadMove = 5f;
-   
+
     public Animator anim;
     
 
@@ -35,9 +35,8 @@ public class MovePlayer : MonoBehaviour
             GetComponent<SpriteRenderer>().flipX = true;
 
         }
-
+        
     }
-
 
 
 
