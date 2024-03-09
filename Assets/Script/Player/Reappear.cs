@@ -15,7 +15,7 @@ public class Reappear : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag("Puas"))
+        if(collision.gameObject.CompareTag("Spike"))
         {
             StartCoroutine(Desapear());
             foreach (Position t in position)

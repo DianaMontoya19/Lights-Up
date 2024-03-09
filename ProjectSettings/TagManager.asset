@@ -4,17 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Fireball
   - skull
   - Ground
   - Enemy
-  - Attack
-  - Died
-  - Died2
   - Door
   - Key
-  - Point
-  - Puas
+  - Spike
   layers:
   - Default
   - TransparentFX

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2263383498202740804}
   - component: {fileID: 8550217322350970437}
   - component: {fileID: 6398008238053603827}
+  - component: {fileID: 3439334864050233437}
   m_Layer: 0
   m_Name: ballFire
   m_TagString: Enemy
@@ -137,7 +138,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.04, y: 0.03999998}
@@ -153,5 +154,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: beae72554fabf44428b7aa8e918db5a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3439334864050233437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6124698843771693474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9ba4c428f8ec0743932e8694d26374e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

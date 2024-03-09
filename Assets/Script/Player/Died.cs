@@ -15,7 +15,7 @@ public class Died : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag("Enemy"))
+        if(collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Spike"))
         {
             life--;
             if(life <= 0)
