@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
@@ -7,6 +8,7 @@ public class ControllerLight : MonoBehaviour
 {
     public Light2D playerLight;
     public GameObject fireFlies;
+    public TextMeshProUGUI textLight;
     public float multy = 0.5f;
     public float timer = 20f;
     private bool _timeOut = false;
@@ -21,6 +23,7 @@ public class ControllerLight : MonoBehaviour
         if (_timeOut == true)
         {
             timer-= Time.deltaTime;
+            textLight.text = "Timer Light: " + timer.ToString("f0");
             if (timer <= 0f)
             {
                 StartCoroutine(TimeOff());
