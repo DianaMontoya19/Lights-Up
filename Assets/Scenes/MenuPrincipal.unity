@@ -134,11 +134,9 @@ GameObject:
   - component: {fileID: 321412704}
   - component: {fileID: 321412706}
   - component: {fileID: 321412705}
-  - component: {fileID: 321412707}
-  - component: {fileID: 321412709}
   m_Layer: 5
   m_Name: Ventana1MenuInicial
-  m_TagString: Ventana1MenuInicial
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -207,30 +205,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 321412703}
   m_CullTransparentMesh: 1
---- !u!114 &321412707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 321412703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20715d5ba8767e349877c46bfc8683c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &321412709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 321412703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67d89f7c949200e42a1d7f466c8bb1e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &333273553
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,7 +422,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 321412707}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: View1, Assembly-CSharp
         m_MethodName: OnClick_botones
         m_Mode: 3
@@ -749,7 +723,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 321412707}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: View1, Assembly-CSharp
         m_MethodName: OnClick_botones
         m_Mode: 3
@@ -1022,7 +996,7 @@ GameObject:
   - component: {fileID: 1448588138}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Navegation Manager
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1482,7 +1456,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 321412707}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: View1, Assembly-CSharp
         m_MethodName: OnClick_botones
         m_Mode: 3
