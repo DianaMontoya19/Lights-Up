@@ -18979,8 +18979,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.052399993, y: 0.5815, z: 0}
-    m_Extent: {x: 1.2639, y: 1.5853, z: 0}
+    m_Center: {x: 0.06279999, y: 0.57934994, z: 0}
+    m_Extent: {x: 1.2727001, y: 1.5796499, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -24092,7 +24092,7 @@ GameObject:
   - component: {fileID: 1130234483}
   - component: {fileID: 1130234485}
   m_Layer: 0
-  m_Name: SceneCave
+  m_Name: Cave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28538,8 +28538,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0679, y: 0.5828, z: 0}
-    m_Extent: {x: 1.2677, y: 1.5857, z: 0}
+    m_Center: {x: 0.057449996, y: 0.5762501, z: 0}
+    m_Extent: {x: 1.26125, y: 1.57885, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -31276,7 +31276,7 @@ GameObject:
   - component: {fileID: 1514524307}
   - component: {fileID: 1514524309}
   m_Layer: 0
-  m_Name: SceneSky
+  m_Name: Sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -10,6 +10,9 @@ TagManager:
   - Door
   - Key
   - Spike
+  - Ventana1MenuInicial
+  - Navegation Manager
+  - MenuManager
   layers:
   - Default
   - TransparentFX
