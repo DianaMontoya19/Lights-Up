@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Died : MonoBehaviour
@@ -30,6 +31,8 @@ public class Died : MonoBehaviour
                 anim.SetTrigger("Died");
                 StartCoroutine(Wait());
                 
+
+
             }
 
         }
@@ -38,6 +41,7 @@ public class Died : MonoBehaviour
     {
         
         yield return new WaitForSeconds(2f);
-        Time.timeScale = 0f;
+        SceneManager.LoadScene("GameOver");
+        
     }
 }

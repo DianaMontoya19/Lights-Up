@@ -14,7 +14,7 @@ public class ControllerLight : MonoBehaviour
     private bool _timeOut = false;
     void Start()
     {
-        playerLight = GetComponent<Light2D>();
+        //playerLight = GetComponent<Light2D>();
         playerLight.intensity = 0f;
         
     }
@@ -48,6 +48,7 @@ public class ControllerLight : MonoBehaviour
     }
     IEnumerator Timeline()
     {
+
         yield return new WaitUntil(Timer);
     }
     private bool Timer()
