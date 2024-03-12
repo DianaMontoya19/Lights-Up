@@ -13,7 +13,6 @@ public class Gem : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
 
-            
             key.SetActive(true);
             Destroy(gameObject);
 

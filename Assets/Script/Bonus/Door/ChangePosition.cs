@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class ChangePosition : MonoBehaviour
 {
-    public Key detection;
+    [SerializeField] private Key detection;
     public Animator anim;
     public Transform newPosition;
+    
     void Start()
     {
-        detection = GetComponent<Key>();
+        detection = FindObjectOfType<Key>();
     }
 
  
@@ -17,9 +18,17 @@ public class ChangePosition : MonoBehaviour
     {
         if(detection._collection && collision.gameObject.CompareTag("Door"))
         {
+            
             anim.enabled = true;
             StartCoroutine(Position());
+            if(detection.count ==1)
+            {
+                Debug.Log("Ganaste");
+              Time.timeScale = 0f;
+            }
+      
         }
+
     }
 
     IEnumerator Position()

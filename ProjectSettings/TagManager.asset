@@ -13,6 +13,7 @@ TagManager:
   - Ventana1MenuInicial
   - Navegation Manager
   - MenuManager
+  - Key2
   layers:
   - Default
   - TransparentFX

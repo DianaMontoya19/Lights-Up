@@ -20,7 +20,8 @@ public class MoveZombie : MonoBehaviour
         if (positionPlayer != null) // Verificar que la referencia al jugador no sea nula
         {
             
-            Vector3 direccion = positionPlayer.position - transform.position;
+            Vector3 direccion = new Vector3(positionPlayer.position.x - transform.position.x,0f,0f);
+            
             direccion.Normalize(); 
 
      
