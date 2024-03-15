@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/M1VentanaPrincipal/MenuPrincipal.unity
+    guid: 91b329349188d9a44b84b7d206c7f5c0
   - enabled: 1
     path: Assets/Scenes/MenuPrincipal.unity
-    guid: 91b329349188d9a44b84b7d206c7f5c0
+    guid: 36a76d504d7d21743b1bc705be9e8de2
   - enabled: 1
     path: Assets/Scenes/MenuSelectPlayer.unity
     guid: 82f49f0982def6241b56eb898a71ca6e
