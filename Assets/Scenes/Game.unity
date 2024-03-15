@@ -484,8 +484,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.06529999, y: 0.57435006, z: 0}
-    m_Extent: {x: 1.2606, y: 1.58425, z: 0}
+    m_Center: {x: 0.05550003, y: 0.58400005, z: 0}
+    m_Extent: {x: 1.2672, y: 1.5832, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -687,7 +687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -2518,7 +2518,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.6666667, y: 2.1333334}
-    newSize: {x: 0.1, y: 0.32}
+    newSize: {x: 0.6666667, y: 2.1333334}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -2567,12 +2567,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 24385e0b13022a941976d297f3612400, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e872b16ff7c7a84479223e61e06a7109, type: 3}
   m_Color: {r: 0.7354347, g: 0, b: 0.8679245, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.1, y: 0.32}
+  m_Size: {x: 0.6666667, y: 2.1333334}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2587,7 +2587,7 @@ Transform:
   m_GameObject: {fileID: 578908777}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 91.25, y: -29.75, z: 0}
+  m_LocalPosition: {x: 92, y: -29.75, z: 0}
   m_LocalScale: {x: 0.6666667, y: 0.6666666, z: 0.6666667}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13617,8 +13617,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.056949973, y: 0.5742499, z: 0}
-    m_Extent: {x: 1.26115, y: 1.5810499, z: 0}
+    m_Center: {x: 0.064749956, y: 0.57505, z: 0}
+    m_Extent: {x: 1.25965, y: 1.57715, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -15194,8 +15194,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -16.81, y: 14.29}
+  m_SizeDelta: {x: 66.38, y: 71.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &998781129
 CanvasRenderer:
@@ -17441,7 +17441,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 563.58, y: 434.59}
+  m_AnchoredPosition: {x: 320.1291, y: 146.54797}
   m_SizeDelta: {x: 473.49, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1012145294
@@ -17491,8 +17491,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -36070,8 +36070,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 85.36783, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 48.93, y: 14.29}
+  m_SizeDelta: {x: 66.38, y: 71.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1858996155
 CanvasRenderer:
@@ -36368,12 +36368,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 24385e0b13022a941976d297f3612400, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e872b16ff7c7a84479223e61e06a7109, type: 3}
   m_Color: {r: 0.7354347, g: 0, b: 0.8679245, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.1, y: 0.32}
+  m_Size: {x: 0.6666667, y: 2.1333334}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -36432,7 +36432,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.6666667, y: 2.1333334}
-    newSize: {x: 0.1, y: 0.32}
+    newSize: {x: 0.6666667, y: 2.1333334}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -37397,8 +37397,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 170.7356, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 115.7, y: 14.29}
+  m_SizeDelta: {x: 66.38, y: 71.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2064383017
 GameObject:
@@ -37435,7 +37435,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -853.6777, y: 437.0829}
+  m_AnchoredPosition: {x: -334.3571, y: 146.548}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2086204122

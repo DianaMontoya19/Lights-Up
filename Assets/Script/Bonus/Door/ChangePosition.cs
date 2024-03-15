@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ChangePosition : MonoBehaviour
 {
@@ -22,9 +23,9 @@ public class ChangePosition : MonoBehaviour
             anim.enabled = true;
             StartCoroutine(Position());
             if(detection.count ==1)
-            {
-                Debug.Log("Ganaste");
-              Time.timeScale = 0f;
+            {                
+              
+                SceneManager.LoadScene("Winner");
             }
       
         }
